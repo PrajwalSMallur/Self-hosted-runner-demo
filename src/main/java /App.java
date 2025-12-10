@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Runner triggered 🚀");
+        System.out.println("Runner triggered. 🚀");
 
     }
 }
