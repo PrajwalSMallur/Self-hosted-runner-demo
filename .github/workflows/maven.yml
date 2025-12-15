@@ -24,4 +24,5 @@ jobs:
           MAVEN_PASS: ${{ secrets.MAVEN_REPO_PASS }}
         run: |
           echo "Maven user is $MAVEN_USER"
+          echo "DONE"
           mvn clean package
