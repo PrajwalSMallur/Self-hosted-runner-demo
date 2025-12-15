@@ -19,10 +19,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Maven Build
-        env:
-          DEV_USERNAME: ${{ secrets.DEV_USERNAME }}
-          DEV_PASSWORD: ${{ secrets.DEV_PASSWORD }}
-        run: |
-          mvn clean package \
-            -Ddev.username=$DEV_USERNAME \
-            -Ddev.password=$DEV_PASSWORD
+        run: mvn clean package 
