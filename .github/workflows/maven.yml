@@ -28,7 +28,7 @@ on:
       - develop
 
 env:
-  name: Sujay
+  name: Prajwal S Mallur
   servername: Default
 
 jobs:
